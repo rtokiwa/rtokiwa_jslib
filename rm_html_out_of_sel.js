@@ -8,9 +8,9 @@ for(var i=0,r,rp,c=s.rangeCount;i<c;++i,rp=r){
 	if(r.startContainer!=r.endContainer||r.startOffset!=r.endOffset){
 		//削除開始位置
 		if(i==0){
-		  rr.setStart(b,0);
+			rr.setStart(b,0);
 		}else{
-		  rr.setStart(rp.endContainer,rp.endOffset);
+			rr.setStart(rp.endContainer,rp.endOffset);
 		}
 		//削除終了位置
 		rr.setEnd(r.startContainer,r.startOffset);
